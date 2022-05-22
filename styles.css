@@ -1,0 +1,84 @@
+body {
+  background-color: orange;
+  font-family: 'Times New Roman';
+}
+.kucing {
+  display: flex;
+  justify-content: center;
+}
+h1, h2 {
+  color: blue;
+  text-align: center;
+}
+.belajar {
+  border: 1px solid navy;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+}
+form {
+ width: 30px;
+}
+
+/*  */
+.simple-web {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  width: 80%;
+}
+.kiri-kanan {
+  display: flex;
+  flex-direction: row;
+  height: 12vh;
+}
+.navigasi, .konten {
+  border-style: solid;
+  border-width: 1px;
+  border-left-width: 1px;
+  background-color: white;
+}
+.navigasi {
+  padding: 2em;
+  text-align: center;
+  flex-basis: 20%;
+  border-right-width: 0px;
+}
+.konten {
+  padding: 1em;
+  flex-grow: 1;
+  border-right-width: 1px;
+  text-align: justify;
+}
+
+/*  */
+.simple-web1 {
+  display: flex;
+  flex-direction: column;
+  height: 55vh;
+  width: 80%;
+}
+.kiri-kanan1 {
+  display: flex;
+  flex-direction: row;
+  height: 95vh;
+}
+.navigasi1, .konten1 {
+  border-style: solid;
+  border-width: 1px;
+  border-left-width: 1px;
+  background-color: white;
+}
+.navigasi1 {
+  padding: 2vh;
+  text-align: center;
+  flex-basis: 40%;
+  border-right-width: 0px;
+
+}
+.konten1 {
+  padding: 1em;
+  flex-grow: 1;
+  border-right-width: 1px;
+  text-align: justify;
+}
